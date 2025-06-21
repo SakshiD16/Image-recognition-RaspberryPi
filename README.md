@@ -1,7 +1,7 @@
 # Raspberry Pi Image Recognition Tool
 
 A real-time object detection tool developed using a Raspberry Pi 5, Linux OS, and the YOLO (You Only Look Once) deep learning algorithm. This project was built as part of the **Pi Day Workshop** at the University of Toledo to demonstrate edge-based image recognition using accessible, low-cost hardware.
-
+![pic](https://github.com/SakshiD16/Image-recognition-RaspberryPi/blob/main/Test%20result.jpeg)
 ---
 
 ## Objective
@@ -92,6 +92,8 @@ python3 detect.py --source 0 --weights yolov5s.pt --conf 0.4
 - --source 0: Pi camera (default video source)
 - --weights yolov5s.pt: Pre-trained model (can be replaced with your own)
 - --conf: Confidence threshold (adjustable)
+
+![Camera set-up](https://github.com/SakshiD16/Image-recognition-RaspberryPi/blob/main/Camera%20pic.jpeg)
 
 ---
 
